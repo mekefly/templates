@@ -1,0 +1,24 @@
+{
+	"name": "@mekefly/templates",
+	"version": "0.0.0-bate.0",
+  "author": {
+    "email": "mekefly@qq.com",
+    "name": "mekefly",
+    "url": "http://github.com/mekefly"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+	"dependencies": {
+		"minimist": "^1.2.6",
+		"shelljs": "^0.8.5",
+		"simple-git": "^3.12.0",
+		"vite": "^3.0.9"
+	},
+	"bin":{
+		"mekefly-templates":"bin/index.js"
+	},
+	"devDependencies": {
+		"zx": "^7.0.8"
+	}
+}
