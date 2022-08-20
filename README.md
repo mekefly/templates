@@ -1,29 +1,31 @@
 # rollup-ts-template
 
-你可以五步内对ts项目完成打包
+让你简单的创建一个rollup 和 ts 的模板
+
+## Includes
+
+- [x] TypeScript
+- [x] JavaScript
+- [x] rollup
 
 ## Get started
 
-## 1. 创建文件夹
+### 1. 全局安装这个脚本|Install
 
-> mkdir FolderName
+> pnpm install @mekefly/templates -g
 
-## 2. 进入文件夹
+### 2. 执行|Run
 
-> cd FolderName
+> mekefly-templates fetch  rollup-ts-template  -N `packageName`
 
-## 3. 下载模板
+### 3. 做你爱做的事|Start your work
 
-> git clone `git@github.com:mekefly/rollup-ts-template.git` ./
+```shell
+cd `packageName`
 
-或
+pnpm install
 
-> git clone `https://github.com/mekefly/rollup-ts-template.git` ./
+pnpm build
+```
 
-## 4. 安装依赖
-
-> pnpm install
-
-## 5. 打包
-
-> pnpm build
+## [更多教程](https://github.com/mekefly/templates)

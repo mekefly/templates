@@ -1,12 +1,12 @@
 {
-	"name": "template",
-	"shortName": "template",
+	"name": "__packageName__",
+	"shortName": "__packageName__",
 	"version": "0.0.0-bate.0",
   "main": "index.js",
   "types": "dist/index.d.ts",
-  "module": "dist/template.esm.js",
-  "unpkg": "dist/template.iife.js",
-  "jsdelivr": "dist/template.iife.js",
+  "module": "dist/__packageName__.esm.js",
+  "unpkg": "dist/__packageName__.iife.js",
+  "jsdelivr": "dist/__packageName__.iife.js",
   "author": {
     "email": "mekefly@qq.com",
     "name": "mekefly",
@@ -24,7 +24,10 @@
 		"build:all": "pnpm build:dev && pnpm build:prod",
 		"build:prod": "pnpm rollup -c ./rollup.config.js --environment NODE_ENV:production",
 		"build:dev": "pnpm rollup -c ./rollup.config.js --environment NODE_ENV:development",
+		"build:watch:iife": "pnpm rollup --watch -c ./rollup.config.js --environment NODE_ENV:development --environment build-options:iife",
+		"build:watch:cjs": "pnpm rollup --watch -c ./rollup.config.js --environment NODE_ENV:development --environment build-options:cjs",
     "pub": "npm publish"
+
 	},
 	"dependencies": {
 		"@babel/core": "^7.18.10"
