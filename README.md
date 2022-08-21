@@ -29,6 +29,8 @@
       - --project-name(-N) 项目的名字，将会替换package.json
       - --template-name(-T) 模板名,优先级低与上面的模板名
       - --path(-P) 项目的路径，可以是相对路径也可以是绝对路径
+  - list 获取模板列表
+  - help 简单帮助
 
 ### ForExample
 
