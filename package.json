@@ -1,0 +1,9 @@
+{
+  "name": "__packageName__",
+  "version": "0.0.0-bate.0",
+  "description": "",
+  "types": "dist/types/index.d.ts",
+  "scripts": {},
+  "author": "",
+  "dependencies": {}
+}
